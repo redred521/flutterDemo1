@@ -180,11 +180,11 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
       bottomNavigationBar: BottomNavigationBar(
         // 底部导航
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('Home')),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.business), title: Text('Business')),
+              icon: Icon(Icons.business), label: "Business"),
           BottomNavigationBarItem(
-              icon: Icon(Icons.school), title: Text('School')),
+              icon: Icon(Icons.school), label: "School"),
         ],
         currentIndex: _selectedIndex,
         fixedColor: Colors.blue,
